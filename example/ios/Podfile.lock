@@ -1,0 +1,31 @@
+PODS:
+  - Flutter (1.0.0)
+  - flutter_begateway (0.0.2):
+    - Flutter
+    - SwiftyRSA
+  - SwiftyRSA (1.6.0):
+    - SwiftyRSA/ObjC (= 1.6.0)
+  - SwiftyRSA/ObjC (1.6.0)
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - flutter_begateway (from `.symlinks/plugins/flutter_begateway/ios`)
+
+SPEC REPOS:
+  trunk:
+    - SwiftyRSA
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  flutter_begateway:
+    :path: ".symlinks/plugins/flutter_begateway/ios"
+
+SPEC CHECKSUMS:
+  Flutter: 434fef37c0980e73bb6479ef766c45957d4b510c
+  flutter_begateway: 5a37028ace15a304bd430101b57e1f86872d2a09
+  SwiftyRSA: 3b9c9179744217951facc6a3e9ae8d8c97061ffa
+
+PODFILE CHECKSUM: 7368163408c647b7eb699d0d788ba6718e18fb8d
+
+COCOAPODS: 1.10.1
