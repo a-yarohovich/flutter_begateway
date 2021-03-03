@@ -1,6 +1,6 @@
 # flutter_begateway
 
-A new Flutter plugin.
+A Flutter plugin for encoding card data according to https://bepaid.by rules.
 
 ## Getting Started
 
