@@ -22,8 +22,7 @@ class _MyAppState extends State<MyApp> {
   String resp;
 
   Future<void> initCreditCard() async {
-    final authToken =
-        'NDIyNjoyNTBlNzBmYjgzYmIwYmI2YjJkYjkwMzYwZjI0YWUyMjhiM2I4Y2UyZTQyYjc1NGEzNDZhZGYyMmZhYzdkMjJl';
+    final authToken = 'AUTH_TOKEN';
     String pubKey =
         'MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxiq93sRjfWUiS/OE2ZPfMSAeRZFGpVVetqkwQveG0reIiGnCl4RPJGMH1ng3y3ekhTxO1Ze+ln3sCK0LJ/MPrR1lzKN9QbY4F3l/gmj/XLUseOPFtayxvQaC+lrYcnZbTFhqxB6I1MSF/3oeTqbjJvUE9KEDmGsZ57y0+ivbRo9QJs63zoKaUDpQSKexibSMu07nm78DOORvd0AJa/b5ZF+6zWFolVBmzuIgGDpCWG+Gt4+LSw9yiH0/43gieFr2rDKbb7e7JQpnyGEDT+IRP9uKCmlRoV1kHcVyHoNbC0Q9kV8jPW2K5rKuj80auV3I2dgjJEsvxMuHQOr4aoMAgQIDAQAB';
     cardNumber = await FlutterBegateway.encryptCardData('4012000000003010', pubKey);
